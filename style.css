@@ -10,8 +10,6 @@ body {
 #top-part {
   border: solid 1px black;
   height: 20em;
-  background-image: url("/Web/landingPage/resources/images/space-background-with-abstract-shape-stars_189033-30.jpg.webp");
-  background-size: cover;
 }
 header {
   background-color: rgb(197, 195, 195);
@@ -20,17 +18,25 @@ header {
   width: 30%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  padding-left: 5em;
   padding-right: 0px;
   border-radius: 0 20px 20px 0;
 }
 header h1 {
   font-size: 70px;
   font-weight: bold;
+  padding-left: 1em;
+  width: 81%;
+}
+header h1 span {
+  font-size: 10rem;
+  float: right;
+  line-height: 0.8;
 }
 header h2 {
   font-size: 35px;
+  padding-left: 0.6em;
 }
+
 main {
   width: 90%;
   margin: 0 auto;
@@ -39,9 +45,9 @@ main p {
   font-size: 20px;
 }
 #vision {
-  background-color: rgb(197, 195, 195);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3em;
 }
 #vision h2 {
   padding-left: 0.25em;
@@ -49,16 +55,15 @@ main p {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 150px;
   grid-column: 1;
-  background-color: black;
 }
 #vision p {
-  color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   grid-column: 2;
 }
 #who-we-need {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3em;
 }
 #who-we-need h2 {
   padding-left: 0.25em;
@@ -72,6 +77,4 @@ main p {
 }
 #who-we-need p {
   grid-column: 1;
-  background-color: rgb(197, 195, 195);
-  color: black;
 }
