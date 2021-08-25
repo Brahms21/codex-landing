@@ -97,11 +97,12 @@ main p {
   display: inline-block;
   background-color: white;
   color: black;
-  width: 50%;
-  margin-left: 50%;
+  width: auto;
+  margin-left: 70%;
   padding: 1% 0 1% 1%;
   border-radius: 20px 0 0 20px;
   font-size: 25px;
-  overflow: scroll;
+  overflow: hidden;
   margin-top: 5%;
+  margin-bottom: 0.9em;
 }
