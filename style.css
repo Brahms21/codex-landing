@@ -14,7 +14,7 @@ body {
 }
 header {
   display: inline-block;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 238, 255);
   color: black;
   margin-top: 1em;
   width: auto;
@@ -58,7 +58,7 @@ main p {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5em;
-  color: white;
+  color: #ffffff;
 }
 #vision h2 {
   padding-left: 0.25em;
@@ -67,7 +67,11 @@ main p {
   font-size: 100px;
   grid-column: 1;
 }
+#vision h2 span {
+  color: rgb(0, 238, 255);
+}
 #vision p {
+  line-height: 1.3em;
   font-family: Arial, Helvetica, sans-serif;
   grid-column: 2;
 }
@@ -86,16 +90,18 @@ main p {
   grid-column: 2;
 }
 #who-we-need span {
+  color: rgb(0, 238, 255);
   font-size: 100px;
 }
 #who-we-need p {
-  margin-top: 70px;
+  line-height: 1.3em;
+  margin-top: 100px;
   grid-column: 1;
 }
 
 #contact {
   display: inline-block;
-  background-color: white;
+  background-color: rgb(0, 238, 255);
   color: black;
   width: auto;
   margin-left: 70%;
@@ -106,3 +112,4 @@ main p {
   margin-top: 5%;
   margin-bottom: 0.9em;
 }
+
