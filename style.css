@@ -92,3 +92,15 @@ main p {
   margin-top: 70px;
   grid-column: 1;
 }
+
+#contact {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  width: 50%;
+  margin-left: 50%;
+  padding: 1% 0 1% 1%;
+  border-radius: 20px 0 0 20px;
+  font-size: 25px;
+  overflow: scroll;
+}
