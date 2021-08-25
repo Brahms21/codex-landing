@@ -5,4 +5,6 @@ timeline
   .from(".vision", { x: "-120%", ease: "slow" })
   .from(".vision-text", { duration: 4, opacity: 0 })
   .from(".who-we-need", { x: "120%", ease: "slow" }, 6)
-  .from(".who-text", { duration: 4, opacity: 0 }, 8);
+  .from(".who-text", { duration: 4, opacity: 0 }, 8)
+  .from(".footer", { x: "120%", ease: "power1" }, 8);
+
