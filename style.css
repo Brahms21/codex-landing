@@ -64,7 +64,7 @@ main p {
   padding-left: 0.25em;
   padding-top: 0.25em;
   font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 150px;
+  font-size: 100px;
   grid-column: 1;
 }
 #vision p {
@@ -80,15 +80,15 @@ main p {
 }
 #who-we-need h2 {
   padding-left: 0.25em;
-  padding-top: 0.25em;
+  padding-top: 0.5em;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 100px;
   grid-column: 2;
 }
 #who-we-need span {
-  font-size: 150px;
+  font-size: 100px;
 }
 #who-we-need p {
+  margin-top: 70px;
   grid-column: 1;
 }
-
