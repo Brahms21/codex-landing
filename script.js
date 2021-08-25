@@ -1,4 +1,4 @@
-const timeline = gsap.timeline({ defaults: { duration: 2 } });
+const timeline = gsap.timeline({ defaults: { duration: 1.5 } });
 
 timeline
   .from(".header", { x: "-100%", ease: "power1" })
