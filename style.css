@@ -9,16 +9,15 @@ body {
   color: rgb(197, 195, 195);
 }
 #top-part {
-  border: solid 1px black;
+  border: solid .5px rgb(0, 0, 0);
   height: 20em;
 }
 header {
-  background-color: rgb(197, 195, 195);
+  background-color: rgb(255, 0, 0);
   color: black;
-  margin-top: 6em;
-  width: 30%;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  margin-top: 1em;
+  width: 21%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding-right: 0px;
   border-radius: 0 20px 20px 0;
 }
@@ -46,9 +45,11 @@ main p {
   font-size: 20px;
 }
 #vision {
+  font-family: Arial, Helvetica, sans-serif;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5em;
+  color: white;
 }
 #vision h2 {
   padding-left: 0.25em;
@@ -58,13 +59,15 @@ main p {
   grid-column: 1;
 }
 #vision p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   grid-column: 2;
 }
 #who-we-need {
+  font-family: Arial, Helvetica, sans-serif;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5em;
+  color: white;
 }
 #who-we-need h2 {
   padding-left: 0.25em;
