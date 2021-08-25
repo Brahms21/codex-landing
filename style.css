@@ -9,23 +9,32 @@ body {
   color: rgb(197, 195, 195);
 }
 #top-part {
-  border: solid .5px rgb(0, 0, 0);
+  border: solid 0.5px rgb(0, 0, 0);
   height: 20em;
 }
 header {
-  background-color: rgb(255, 0, 0);
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
   color: black;
   margin-top: 1em;
-  width: 21%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding-right: 0px;
+  width: auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-right: 10px;
   border-radius: 0 20px 20px 0;
 }
 header h1 {
   font-size: 70px;
   font-weight: bold;
   padding-left: 1em;
-  width: 81%;
+}
+@media only screen and (min-width: 1400px) {
+  header {
+    width: auto;
+  }
+
+  header h1 span {
+    line-height: 90%;
+  }
 }
 header h1 span {
   font-size: 9rem;
@@ -82,3 +91,4 @@ main p {
 #who-we-need p {
   grid-column: 1;
 }
+
