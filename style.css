@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+  overflow-x: hidden;
   background-color: black;
   color: rgb(197, 195, 195);
 }
@@ -28,9 +29,9 @@ header h1 {
   width: 81%;
 }
 header h1 span {
-  font-size: 10rem;
+  font-size: 9rem;
   float: right;
-  line-height: 0.8;
+  line-height: 90%;
 }
 header h2 {
   font-size: 35px;
@@ -47,7 +48,7 @@ main p {
 #vision {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 3em;
+  grid-gap: 5em;
 }
 #vision h2 {
   padding-left: 0.25em;
@@ -63,7 +64,7 @@ main p {
 #who-we-need {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 3em;
+  grid-gap: 5em;
 }
 #who-we-need h2 {
   padding-left: 0.25em;
