@@ -71,6 +71,7 @@ main p {
   color: rgb(0, 238, 255);
 }
 #vision p {
+  margin-top: 50px;
   line-height: 1.3em;
   font-family: Arial, Helvetica, sans-serif;
   grid-column: 2;
