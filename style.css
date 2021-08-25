@@ -103,4 +103,5 @@ main p {
   border-radius: 20px 0 0 20px;
   font-size: 25px;
   overflow: scroll;
+  margin-top: 5%;
 }
